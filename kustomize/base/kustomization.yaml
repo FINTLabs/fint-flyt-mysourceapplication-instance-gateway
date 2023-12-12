@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - flais.yaml
   - oauth2-file-client.yaml
-  - oauth2-sourceapplication-client.yaml
+  - rf1350-oauth2-client.yaml

@@ -9,7 +9,7 @@ To use this template, you need to customize it according to your specific requir
 ### Rename `sourceApplication`
 The `sourceApplication` represents the data source sending information to this gateway (e.g., `egrunnerverv`, `acos`, `rf13.50`, etc.). Rename it throughout the project to reflect your specific source application.
 
-- **Example**: Rename `fint-flyt-sourceapplication-instance-gateway` to `fint-flyt-rf1350-instance-gateway`.
+- **Example**: Rename `fint-flyt-mysourceapplication-instance-gateway` to `fint-flyt-rf1350-instance-gateway`.
 
 ### Kustomize Configuration
 Adjust the following setting in the `base/flais.yaml`:

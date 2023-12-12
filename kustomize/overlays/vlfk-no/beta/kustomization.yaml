@@ -6,7 +6,7 @@ resources:
   - ../../../base
 
 commonLabels:
-  app.kubernetes.io/instance: fint-flyt-sourceapplication-instance-gateway_vlfk_no
+  app.kubernetes.io/instance: fint-flyt-mysourceapplication-instance-gateway_vlfk_no
   vlfk.no/org-id: vlfk.no
 
 patches:
@@ -25,5 +25,5 @@ patches:
         value: "/beta/api/sourceapplication/instances/999999999"
     target:
       kind: Application
-      name: fint-flyt-sourceapplication-instance-gateway
+      name: fint-flyt-mysourceapplication-instance-gateway
 
