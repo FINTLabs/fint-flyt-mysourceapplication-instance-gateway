@@ -22,7 +22,7 @@ patches:
         value: "/beta"
       - op: replace
         path: "/spec/ingress/basePath"
-        value: "/beta/api/sourceapplication/instances/999999999"
+        value: "/beta/api/mysourceapplication/instances"
     target:
       kind: Application
       name: fint-flyt-mysourceapplication-instance-gateway
