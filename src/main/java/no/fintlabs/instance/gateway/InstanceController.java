@@ -1,8 +1,8 @@
-package no.fintlabs.instance.gateway.example;
+package no.fintlabs.instance.gateway;
 
 import no.fintlabs.gateway.instance.InstanceProcessor;
-import no.fintlabs.instance.gateway.example.collectionandfiles.IncomingInstanceWithCollectionOfFiles;
-import no.fintlabs.instance.gateway.example.simple.IncomingInstance;
+import no.fintlabs.instance.gateway.collectionandfiles.IncomingInstanceWithCollectionOfFiles;
+import no.fintlabs.instance.gateway.simple.IncomingInstance;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

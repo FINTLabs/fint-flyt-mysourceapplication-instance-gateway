@@ -55,13 +55,8 @@ jobs:
         include:
           - org: fintlabs-no
             cluster: aks-beta-fint-2021-11-23
-
-#          - org: vlfk-no
-#            cluster: aks-api-fint-2022-02-08
-#          - org: vlfk-no
-#            cluster: aks-beta-fint-2021-11-23
           - org: vlfk-no
-            cluster: aks-alpha-fint-2021-11-18
+            cluster: aks-beta-fint-2021-11-23
 
     steps:
       - name: Checkout repository
